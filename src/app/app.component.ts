@@ -10,5 +10,10 @@ import { StorageService } from './storage.service';
 })
 export class AppComponent {
   title = 'data binding in angular';
-  
+
+  handleEvent() {
+    console.log('button click event binding')
+  }
+
+
 }
